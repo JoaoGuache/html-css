@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        background-color: rgba(119, 112, 112, 0.39);
+    }
+    header{
+        background-color: #a398a134;
+        color: #000000;
+        margin: auto;
+        padding: 10px 5px 10px 5px
+    }
+
+    nav{
+        background-color: rgba(66, 70, 66, 0.575);
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.432);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 42px;
+    }
+
+    
+
+    #temas{
+        background-color: rgb(255, 247, 247);
+        padding: 10px;
+       
+    }
+
+    a{
+        color: #ffff;
+        text-decoration: none;
+        
+        
+    }
+
+    a:hover{
+        text-decoration: underline;
+        background-color: rgb(158, 158, 140);
+        color: rgb(24, 24, 24);
+        
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    
+
+    article > h2{
+        background-color: #1414da;
+        color:#fff;
+        padding: 5px 5px 5px 5px;
+    }
+
+    main{
+        background-color: rgb(170, 173, 201);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    aside > p{
+        text-align: center;
+    }
+
+    footer{
+        background-color: #000000;
+        color: white;
+        padding: 4px;
+        margin: 0;
+        
+    }
+
+    footer > p{
+
+        text-align: center;
+        margin: 0;
+        
+    }         
+
+</style>
+
+
+
+<body>
+<header>
+    <h1>Meu site</h1>
+    <nav>
+        <a class="link" href="#">Link 1</a>
+        <a class="link"href="#">Link 2</a>
+        <a class="link"href="#">Link 3</a>
+        <a class="link"href="#">Link 4</a>
+        <a class="link"href="#">Link 5</a>
+    </nav>
+</header>
+
+<main>
+     <section id="temas">
+        <p>Esportes Política Religião</p>
+     </section>
+     <section id="notícias">
+        <article>
+            <h2>Notícias do Bahia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit veniam eum veritatis debitis, quibusdam necessitatibus vel amet et nisi? Debitis cumque aliquam aperiam molestias blanditiis est accusantium ratione. Nam, adipisci.</p>
+            <aside>
+                <p>Artigo escrito por João Marcelo Guache</p>
+            </aside>
+        </article>
+
+     </section>
+</main>
+
+<footer>
+    <p>Desenvolvido por Guache.com</p>
+</footer>
+</body>
+</html>
